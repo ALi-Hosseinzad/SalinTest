@@ -1,0 +1,83 @@
+.avatar-wrapper {
+  display: flex;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+.container .btn {
+  position: absolute;
+  top: 15%;
+  left: 97%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+}
+.avatar {
+  border-radius: 40px !important;
+}
+.text-part {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.amounts-wrapper {
+  margin-top: 40px;
+}
+.amounts {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.change-password {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.upgrade-btn > span {
+  text-decoration: underline;
+  display: inline-block;
+  padding-bottom: 40px;
+}
+.main-shape {
+  background-color: #a80404;
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+.shape {
+  width: 0;
+  height: 0;
+  border-left: 300px solid #f0f2f5;
+  border-bottom: 150px solid transparent;
+}
+.shape2 {
+  width: 0;
+  height: 0;
+  border-right: 300px solid #f0f2f5;
+  border-top: 150px solid transparent;
+}
+
+@media (max-width: 576px) {
+  .col {
+    padding: 0px !important;
+  }
+  .avatar-wrapper {
+    position: relative;
+  }
+  .container {
+    position: absolute;
+    width: 50%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+}

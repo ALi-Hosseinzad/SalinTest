@@ -1,0 +1,19 @@
+.row {
+  padding: 40px;
+}
+.wrapper {
+  border: 1px solid #e0e0e2;
+  border-radius: 8px;
+  padding: 20px;
+}
+.card {
+  background-color: aquamarine;
+}
+@media (max-width: 576px) {
+  .row {
+    padding: 40px 16px;
+  }
+  .col {
+    padding: 0px !important;
+  }
+}

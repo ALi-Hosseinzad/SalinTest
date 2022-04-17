@@ -1,0 +1,36 @@
+.card-wrapper {
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.card-icon {
+  border-radius: 8px;
+  background-color: aliceblue;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-icon > span {
+  font-size: 24px;
+}
+.card-steps {
+  padding: 10px;
+}
+.card-text {
+  color: #484a48;
+  padding: 10px;
+}
+.card-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+}
+.card-left-text {
+  text-decoration: underline;
+}
